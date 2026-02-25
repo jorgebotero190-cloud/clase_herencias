@@ -46,7 +46,7 @@ package com.example;
     }
 
     public void viajar(int distancia) {
-        double consumo = (distancia / 10.0) * 1;
+        double consumo = (distancia / 10) * 1;
         combustible -= consumo;
         if (combustible < 0)
             combustible = 0;
